@@ -74,7 +74,7 @@ exports.delete = async (req, res) => {
             "message": "Cadastro excluído com sucesso."
         });
     } catch (error) {
-        res.status(500).json.json({
+        res.status(500).json({
             "success": false,
             "message": "Erro ao excluir o cadastro."
         });
